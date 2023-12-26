@@ -540,7 +540,7 @@ So we don't need the name of the file in the git object, the file name is in the
 
 Here are the most usual permissions
 
-| Persmission | Description |
+| Permission | Description |
 | ----------- | ----------- |
 | 040000      | Directory   |
 | 100644      | Regular non executable file |
@@ -659,12 +659,12 @@ Let's move on and discuss how to retrieve files from Git repository and put them
 
 ```mermaid
 flowchart LR
-    id1[(Working
-    directory)]
-    id2[(Staging area
-    #40;index#41;)]
-    id3[(Git
-    repository)]
+    id1[("Working
+    directory")]
+    id2[("Staging area
+    index")]
+    id3[("Git
+    repository")]
     id1 <--> id2
     id2 <--> id3
 ```
